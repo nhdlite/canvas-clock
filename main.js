@@ -42,7 +42,7 @@ window.onload = () => {
     console.log(StopWatch);
     let canvas = document.querySelector('#myCanvas');
     let context = canvas.getContext('2d');
-    const centerX = 300;
+    const centerX = 150;
     const centerY = 150;
     const radius = 100;
     let startingDegrees = 270;
