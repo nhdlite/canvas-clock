@@ -1,0 +1,8 @@
+#myCanvas {
+    border: #000 1px solid;
+}
+
+.canvasContainer {
+    display: flex;
+    align-items: center;
+}
