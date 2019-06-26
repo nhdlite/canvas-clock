@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Simple Clock</title>
+    <script src="StopWatch.js"></script>
     <script src="main.js"></script>
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <div class="canvasContainer">
         <canvas id="myCanvas" width="300" height="300"></canvas>
+        <div>
+            <button onClick="adjustSpeed('down')">Slow Down</button>
+            <button onClick="adjustSpeed('up')">Speed Up</button>
+        </div>
     </div>
 </body>
 </html>
